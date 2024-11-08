@@ -36,6 +36,19 @@
     color: #4E2463 !important;
 }
 
+h1
+{
+    margin-top: 20%;
+    color: #4E2463 !important;
+}
+
+h2
+{
+    width: 80% !important;
+    margin-top: 5% !important;
+    color: #4E2463 !important;
+}
+
 .feature-box p
 {
     margin: 50px auto;
@@ -61,3 +74,32 @@ div a:after
     height: 0;
     width: 1px;
 }
+
+li::marker {
+    color: #4E2463 !important;
+}
+
+
+a:link {
+    color: #4E2463 !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #B31A44;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #F6A717;
+    background-color: transparent;
+    text-decoration: underline;
+  }
